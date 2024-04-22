@@ -1,0 +1,23 @@
+mat-toolbar{
+    background-color: #A0C49D;
+}
+.logo-icono{
+    span{
+        color: white;
+        font-family: cursive;
+        font-size: 32px;
+    }
+    .icon-display {
+        transform: scale(1.7);
+        margin-right: 15px;
+        color: white;
+     }
+}
+
+
+.botones-nav{
+    margin-left: 50px;
+   button{
+        color: white;
+    }
+}

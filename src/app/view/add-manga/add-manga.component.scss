@@ -1,0 +1,46 @@
+.div-grp{
+    margin-top: 15px;
+}
+
+.txt-negro{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-verde{
+    align-content: center;
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #A0C49D;
+    font-size: 35px;
+}
+
+.center-div-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.check{
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt-check{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.redondo{
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+.flex-div{
+    display: flex;
+    align-items: center;
+}

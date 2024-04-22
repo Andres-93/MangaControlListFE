@@ -1,0 +1,48 @@
+<form [formGroup]="formulario" style="padding: 30px;" (ngSubmit)="guardar()">
+    <div class="form-group" class="div-grp txt-negro">
+      <label for="titulo">Titulo*</label>
+      <input type="text" class="form-control" formControlName="titulo" id="titulo">
+    </div>
+    <div class="form-group" class="div-grp txt-negro">
+      <label for="linkImagen">Link imagen*</label>
+      <input type="text" class="form-control" formControlName="linkImagen" id="linkImagen" >
+    </div>
+    <div class="form-group" class="div-grp txt-negro">
+        <label for="linkManga">Link al manga*</label>
+        <input type="text" class="form-control" formControlName="linkManga" id="linkManga" >
+      </div>
+      <div class="form-group" class="div-grp txt-negro">
+        <label for="linkManga2">Link al manga opcion 2</label>
+        <input type="text" class="form-control" formControlName="linkManga2" id="linkManga" >
+      </div>
+      <div class="form-group" class="div-grp txt-negro">
+        <label for="descripcion"> Descripcion</label>
+        <input type="text" class="form-control" formControlName="descripcion" id="descripcion" >
+      </div>
+      <div class="form-group" class="div-grp check">
+        <div class="form-check txt-check flex-div">
+            <input class="form-check-input" type="radio" formControlName="estado" value="Leido" >
+            <label class="form-check-label" for="exampleRadios1"> 
+              Leido
+            </label>
+            <div class="redondo" style=" background-color: green;"></div>
+          </div>
+          <div class="form-check txt-check  flex-div">
+            <input class="form-check-input" type="radio" formControlName="estado" value="Proceso">
+            <label class="form-check-label" for="exampleRadios2">
+              En proceso
+            </label>
+            <div class="redondo" style=" background-color: yellow;"></div>
+          </div>
+          <div class="form-check txt-check  flex-div">
+            <input class="form-check-input" type="radio" formControlName="estado" value="Sin leer">
+            <label class="form-check-label" for="exampleRadios3">
+              Sin leer
+            </label>
+            <div class="redondo" style=" background-color: red;"></div>
+          </div>
+      </div>
+   <div class="center-div-btn">
+    <button type="submit" class="btn btn-primary div-grp btn-verde" [disabled]="!formularioEsValido()">Guardar</button>
+</div>
+  </form>

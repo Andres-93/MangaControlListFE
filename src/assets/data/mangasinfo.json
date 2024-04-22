@@ -1,0 +1,50 @@
+[
+    {
+      "id": "1",
+      "link": "https://visortmo.com/library/manga/624/one-piece",
+      "urlFoto": "https://otakuteca.com/images/books/cover/5bc7cb37a8df5.webp",
+      "titulo": "One Piece",
+      "descripcion": "Piratillas",
+      "estado": "Leido"
+    },
+    {
+      "id": "2",
+      "link": "https://visortmo.com/library/manga/475/naruto-digital-colored-comics",
+      "urlFoto": "https://otakuteca.com/images/books/cover/617ebcafa0486.webp",
+      "titulo": "Naruto",
+      "descripcion": "El niño manga",
+      "estado": "Sin leer"
+    },
+    {
+      "id": "3",
+      "link": "https://visortmo.com/library/manga/40259/fairy-tail-100-years-quest",
+      "urlFoto": "https://otakuteca.com/images/books/cover/5d51bf4d928d7.webp",
+      "titulo": "Fairy tail",
+      "descripcion": "El del fuego",
+      "estado": "Proceso"
+    },
+    {
+      "id": "4",
+      "link": "https://visortmo.com/library/manga/221/kimetsu-no-yaiba",
+      "urlFoto": "https://otakuteca.com/images/books/cover/6347011a463ea.webp",
+      "titulo": "Kimetsu no yaiba",
+      "descripcion": "el espaditas",
+      "estado": "Leido"
+    },
+    {
+      "id": "5",
+      "link": "https://visortmo.com/library/manhwa/217/solo-leveling",
+      "urlFoto": "https://otakuteca.com/images/books/cover/5c2efcd42cd5e.webp",
+      "titulo": "Solo Leveling",
+      "descripcion": "El monstruitos",
+      "estado": "Proceso"
+    },
+    {
+      "id": "6",
+      "link": "https://visortmo.com/library/manhwa/146/en-esta-reencarnacion-yo-sere-la-emperatriz-hermana-mia",
+      "urlFoto": "https://otakuteca.com/images/books/cover/63af2ed492ef3.webp",
+      "titulo": "Yo sere la emperatriz",
+      "descripcion": "emperatriz",
+      "estado": "Sin leer"
+    }
+  ]

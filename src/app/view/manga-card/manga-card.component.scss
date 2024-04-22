@@ -1,0 +1,45 @@
+.btn-verde{
+    align-content: center;
+    width: 110px;
+    border: none;
+    background-color: #A0C49D;
+}
+
+.redondo-proceso{
+    background-color: yellow;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    color: black;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.redondo-leido{
+    background-color: green;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.redondo-sinleer{
+    background-color: red;
+    height: 25px;
+    border-radius: 25px;
+    margin-top: 13px;
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 600;
+    justify-content: center;
+    font-size: 17px;
+}
