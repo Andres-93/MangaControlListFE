@@ -1,6 +1,27 @@
 
+<div class="separation">
+<form style="display: flex;
+padding: 20px;
+align-items: center;
+font-family: Roboto, sans-serif;">
+  <div>
+    <label for="titulo" class="txt-ser">Título:</label>
+    <input type="text" id="titulo" name="titulo" [(ngModel)]="titulo">
+  </div>
+  <div style="margin-left: 10px; margin-right: 10px;">
+    <label for="estado" class="txt-ser">Estado:</label>
+    <select id="estado" name="estado" [(ngModel)]="estado">
+      <option value=""></option>
+      <option value="Leido">Leido</option>
+      <option value="Proceso">En proceso</option>
+      <option value="Sin leer">Sin leer</option>
+    </select>
+  </div>
+  <button class = "btn-search" type="button" (click)="buscar()">Buscar</button>
+</form>
+</div>
 <div class="row row-cols-lg-3 row-cols-md-2 g-3">
-  <app-manga-card *ngFor="let manga of listaManga" [manga] = "manga"></app-manga-card>
+  <app-manga-card *ngFor="let manga of listaMangaEnviar" [manga] = "manga"></app-manga-card>
 </div>
     
 
