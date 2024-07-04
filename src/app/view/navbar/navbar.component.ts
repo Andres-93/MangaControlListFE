@@ -1,5 +1,6 @@
 import { Component } from '@angular/core';
 import { Router } from '@angular/router';
+import { MangaService } from '../manga-list/manga.service';
 
 @Component({
   selector: 'app-navbar',
@@ -8,10 +9,11 @@ import { Router } from '@angular/router';
 })
 export class NavbarComponent {
 
-  constructor(private router: Router) { }
+  constructor(private router: Router,private mangaService: MangaService) { }
 
 
-  irAddManga(){
+  irAddManga(){ 
+    this.mangaService. eliminarMangaEdicion();
     this.router.navigate(['/add-manga']);
   }
 
