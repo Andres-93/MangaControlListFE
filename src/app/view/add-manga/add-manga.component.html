@@ -43,6 +43,8 @@
           </div>
       </div>
    <div class="center-div-btn">
-    <button type="submit" class="btn btn-primary div-grp btn-verde" [disabled]="!formularioEsValido()">Guardar</button>
+    <button type="submit" class="btn btn-primary div-grp btn-verde" [disabled]="!formularioEsValido()" *ngIf="!isEdit">Guardar</button>
+    <button type="submit" class="btn btn-primary div-grp btn-verde" [disabled]="!formularioEsValido()" *ngIf="isEdit">Editar</button>
+    <button  class="btn btn-primary div-grp btn-red" [disabled]="!formularioEsValido()" *ngIf="isEdit">Eliminar</button>
 </div>
   </form>

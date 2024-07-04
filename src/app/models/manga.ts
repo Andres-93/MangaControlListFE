@@ -1,5 +1,5 @@
 export class Manga{
-    id?: String;
+    _id?: String;
     link?: String;
 	link2?: String;
     urlFoto?: String;

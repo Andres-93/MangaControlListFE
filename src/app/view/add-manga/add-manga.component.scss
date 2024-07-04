@@ -16,10 +16,21 @@
     font-size: 35px;
 }
 
+.btn-red{
+    align-content: center;
+    width: 250px;
+    height: 60px;
+    border: none;
+    background-color: #e96b6b;
+    font-size: 35px;
+}
+
+
 .center-div-btn{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
 
 .check{

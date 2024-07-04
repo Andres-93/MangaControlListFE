@@ -43,3 +43,24 @@
     justify-content: center;
     font-size: 17px;
 }
+
+.contenedor {
+    position: relative;
+    display: inline-block; /* Para que el contenedor se ajuste al tamaño de la imagen */
+  }
+  
+  .boton {
+    position: absolute;
+    top: 10px; /* Ajusta la distancia desde la parte superior */
+    right: 10px; /* Ajusta la distancia desde la parte derecha */
+    width: 40px;
+    height: 40px;
+    background-color: white; /* Color de fondo del botón */
+    border-radius: 50%; /* Hace el botón redondo */
+    z-index: 1; /* Asegura que esté encima de la imagen */
+    background-image: url('../../../assets/icons/icono-lapiz.png'); /* Ruta del icono */
+    background-size: 80%; /* Ajusta el tamaño del icono */
+    background-position: center; /* Centra el icono */
+    border: 3px solid black;
+    cursor: pointer;
+  }
